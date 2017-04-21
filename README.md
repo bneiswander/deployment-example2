@@ -69,7 +69,6 @@ In two separate terminals. The vanilla `npm start` is for production — you won
 
 `/app` has the React/Redux setup. `main.jsx` is the entry point.
 
-
 `/db` has the Sequelize models and database setup. It'll create the database for you if it doesn't exist,
 assuming you're using postgres.
 

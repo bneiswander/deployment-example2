@@ -42,7 +42,6 @@ try {
   debug('%s: env file not found or invalid, moving on', secretsFile)
 }
 
-console.log('===================hello is ', process.env.HELLO)
 module.exports = {
   get name() { return pkg.name },
   get isTesting() { return !!global.it },
